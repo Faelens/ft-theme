@@ -4,10 +4,10 @@
             <source src="<?php bloginfo('template_directory'); ?>/bg.webm" type="video/webm">
             <source src="<?php bloginfo('template_directory'); ?>/bg.mp4" type="video/mp4">
         </video>
-        <div class="row animatedParent animateOnce">
-            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="FIFA Tournament - FIFA toernooien op de PlayStation!" class="animated fadeInDown delay-1000">
-            <h1 class="animated delay-1500 rotateInUpLeft">Een voetbaltoernooi op de PlayStation 4</h1>
-            <div class="animated delay-2000 rotateInUpRight">
+        <div class="row ">
+            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="FIFA Tournament - FIFA toernooien op de PlayStation!" >
+            <h1 >Een voetbaltoernooi op de PlayStation 4</h1>
+            <div >
                 <a class="btn btn-custom" href="https://www.youtube.com/watch?v=Qk3W0XVlul0" rel="lightbox123" target="_blank">
                     <i class="fa fa-play pull-left"></i>Bekijk Film
                 </a>
