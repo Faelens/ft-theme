@@ -1,0 +1,45 @@
+body.login {
+background: #fff;
+}
+.login h1 a {
+background-image: url('../login/logo.png');
+    background-position: center bottom;
+background-size: 300px;
+width: 300px;
+height: 151px;
+}
+
+#login {
+padding: 30px 0 0;
+}
+.login form {
+margin-left:auto;
+margin-right:auto;
+padding:30px;
+border: 1px solid rgba(0,0,0,.2);
+background-clip: padding-box;
+background: rgba(255, 255, 255, 0.9);
+box-shadow: 0 0 13px 3px rgba(0,0,0,.1);
+overflow: hidden;
+}.login label {
+color: #333;
+line-height: 26px;
+}
+.login .button-primary {
+width: 120px;
+float:right;
+background-color:#ffda58 !important;
+color: #333;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.login .button-primary:hover {
+background-color:#333 !important;
+color: #ffda58;
+}
+
+.login .button-primary:active {
+background-color:#ffda58 !important;
+color: #333;
+}

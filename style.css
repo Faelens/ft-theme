@@ -1,0 +1,946 @@
+@charset "UTF-8";
+
+/*
+Theme Name: FIFA Tournament 3.0
+Theme URI: http://www.fifatournament.com
+Description: Derde versie van de FIFA Tournament website. Weg van de slideshow, met een menu. Doel is om makkelijker meer content toe te voegen voor SEO optimalisatie.
+Version: 3.0
+Author: Luc Faëlens
+Author URI: http://www.faelens.nl/
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto:100,300);
+html {
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    text-align: center;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+section {
+    overflow-x: hidden;
+}
+
+a,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+
+/** HEADER **/
+
+#header {
+    text-align: center;
+    height: 100%;
+    z-index: 2;
+    overflow: hidden;
+    padding: 0;
+}
+
+#header img {
+    width: 230px;
+    margin-top: 0px;
+}
+
+video {
+    display: block;
+}
+
+video#background {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.btn,
+.btn-custom {
+    background-color: #474747;
+    line-height: 14px;
+    font-size: 15px;
+    border-color: #474747;
+    color: #fff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    transition: ease-in 0.3s;
+    text-transform: uppercase;
+    margin-top: 7px;
+    margin-right: 20px;
+    padding: 13px 20px;
+}
+
+.btn:hover,
+.btn-custom:hover {
+    background-color: #333 !important;
+}
+
+
+/** WAAROM **/
+
+section#waarom {
+    background: #fff;
+    color: #333;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#waarom .row.title {
+    height: 130px;
+    padding: 0;
+}
+
+#waarom .row .col-md-3,
+#waarom .row .col-md-4,
+#waarom .row .col-md-8 {
+    padding: 0 15px 30px 15px;
+}
+
+#waarom .row .vak {
+    width: 100%;
+    background: #3b3b3b;
+    color: #fff;
+    height: 150px;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+#waarom .row .vak h2 {
+    position: relative;
+    top: 50%;
+    margin-top: -16px;
+    cursor: default;
+}
+
+#waarom .row .vak p {
+    position: relative;
+    height: 100%;
+    cursor: default;
+    padding: 0;
+    padding-top: 20px;
+    transform: translateY(500px);
+    transition: 0.6s;
+}
+
+#waarom .row .vak p.drie {
+    padding-top: 0px;
+}
+
+#waarom .row .vak.groot p {
+    padding: 20px 10px 0 10px;
+}
+
+#waarom .vak.foto.een {
+    background: url(img/waarom1.jpg) center center;
+    background-size: cover;
+}
+
+#waarom .vak.foto.twee {
+    background: url(img/waarom2.jpg) center center;
+    background-size: cover;
+}
+
+#waarom .vak.foto.drie {
+    background: url(img/waarom3.jpg) center center;
+    background-size: cover;
+}
+
+#waarom .vak.foto.vier {
+    background: url(img/waarom4.jpg) center center;
+    background-size: cover;
+}
+
+#waarom .row .vak.competitie {
+    background: #c7c7c7;
+}
+
+#waarom .row .vak.competitie h2,
+#waarom .row .vak.competitie p,
+#waarom .row .vak.groot h2,
+#waarom .row .vak.groot p {
+    color: #333;
+}
+
+#waarom .row .vak.groot {
+    background: #dbdbdb;
+    height: 330px;
+}
+
+#waarom .row .vak.verbroedering {
+    background: #6c6c6c;
+}
+
+#waarom .row .vak:hover p,
+#waarom .row .vak h2 {
+    transform: translateY(0px);
+    transition: 0.6s;
+}
+
+#waarom .row .vak:hover h2 {
+    transform: translateY(500px);
+}
+#waarom .row .vak p {
+    transform: translateY(-500px);    
+}
+
+/** DAAROM **/
+
+section#daarom {
+    background: #dcdcdc;
+    color: #474747;
+    text-align: center;
+    padding: 30px 0 60px 0;
+}
+
+#daarom div.photo {
+    background-image: url(img/benelux.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    margin-top: 40px;
+    -webkit-transition: .9s .9s;
+    -moz-transition: .9s .9s;
+    transition: .9s .9s;
+}
+
+#daarom .images-phone {
+    display: none;
+}
+
+#daarom .images-container {
+    margin: auto;
+    margin-top: -310px;
+    margin-left: 5%;
+    width: 1200px;
+}
+
+#daarom .images-container img {
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+#daarom .images-container img.ps4 {
+    top: 85px;
+    height: 240px;
+}
+
+#daarom .images-container img.tv {
+    top: 15px;
+    left: -130px;
+    height: 320px;
+}
+
+img.tv {
+    opacity: 0;
+}
+
+#daarom .images-container img.controller1 {
+    top: 250px;
+    left: -320px;
+    height: 100px;
+}
+
+#daarom .images-container img.controller2 {
+    top: 250px;
+    left: -290px;
+    height: 100px;
+}
+
+#daarom .images-container .controller1 {
+    z-index: 2;
+    -webkit-transform: translate3d(-100px, 0, 0);
+    -moz-transform: translate3d(-100px, 0, 0);
+    transform: translate3d(-100px, 0, 0);
+    opacity: 0;
+}
+
+#daarom .images-container .controller2 {
+    z-index: 2;
+    -webkit-transform: translate3d(-288px, 0, 0);
+    -moz-transform: translate3d(-288px, 0, 0);
+    transform: translate3d(-288px, 0, 0);
+    opacity: 0;
+}
+
+#daarom .images-container .ps4 {
+    -webkit-transform: translate3d(61.6%, 0, 0);
+    -moz-transform: translate3d(61.6%, 0, 0);
+    transform: translate3d(61.6%, 0, 0);
+    opacity: 0;
+}
+
+#daarom .images-container .tv {
+    -webkit-transform: translate3d(-50px, 0, 0);
+    -moz-transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-50px, 0, 0);
+}
+
+#daarom .images-container img {
+    -webkit-transform: translate3d(0, 0, 0) !important;
+    -moz-transform: translate3d(0, 0, 0) !important;
+    transform: translate3d(0, 0, 0) !important;
+    opacity: 1 !important;
+    -webkit-transition: .9s 1.2s;
+    -moz-transition: .9s 1.2s;
+    transition: .9s 1.2s;
+}
+
+
+/** VOORDELEN **/
+
+section#voordelen {
+    background: #555557;
+    color: #fff;
+    padding: 30px 0;
+}
+
+section#voordelen h1 {
+    font-size: 40px;
+}
+
+section#voordelen h2 {
+    color: #fff;
+    font-size: 30px;
+}
+
+section#voordelen h2.subtitle {
+    height: 55px;
+}
+
+section#voordelen .image {
+    display: block;
+    float: left;
+    width: 65px;
+    padding: 47px 0;
+    text-align: left;
+    margin: auto;
+    clear: both;
+}
+
+#voordelen .row {
+    margin: 20px 0;
+}
+
+#voordelen .row div {
+    padding: 10px 0;
+}
+
+section#voordelen .content h2 {
+    color: #ce1a2b;
+    color: #fff;
+    float: none;
+    font-weight: 100;
+    font-size: 25px;
+    transition: ease-in 0.3s;
+    text-align: left;
+}
+
+section#voordelen .content li {
+    display: block;
+    list-style: none;
+    margin-left: 22px;
+    padding-left: 30px;
+    background-image: url(img/li.png);
+    background-size: 18px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+section#voordelen .content li:hover,
+section#voordelen .content h2:hover,
+section#voordelen .fa {
+    color: #ccc;
+    cursor: default;
+}
+
+section#voordelen .fa:hover {
+    color: #999;
+}
+
+section#voordelen .row {
+    transition: ease-in 0.3s;
+}
+
+
+/****** JOUWTOERNOOI ****/
+
+#jouwtoernooi,
+#jouwtoernooi h1,
+#jouwtoernooi h2 {
+    color: #fff;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+}
+
+#jouwtoernooi .col h1 {
+    font-size: 26px;
+}
+
+#jouwtoernooi {
+    background-image: url(img/call.jpg);
+    background-size: cover;
+    padding: 20px 0;
+}
+
+#jouwtoernooi .col {
+    text-align: left;
+    padding: 20px 20px 10px 20px;
+    transition: ease-in 0.3s;
+}
+
+#jouwtoernooi a {
+    color: #fff;
+}
+
+#jouwtoernooi h2 {
+    display: block;
+}
+
+#jouwtoernooi li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 30px;
+    background-image: url(img/li.png);
+    background-size: 18px;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    transition: ease-in 0.3s;
+    width: 100%;
+    margin-top: 5px;
+}
+
+#jouwtoernooi .col:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.keuzes label {
+    width: 100%;
+    margin: -10px;
+    padding: 0;
+    font-weight: 300;
+}
+
+.keuzes label div,
+.keuzes label span {
+    display: block;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid rgb(153, 153, 153);
+    font-style: normal;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin: 5px 0;
+    color: #000;
+}
+
+.keuzes input.contactgegevens,
+#contact input,
+#contact textarea {
+    display: block;
+    border: none;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    font-style: normal;
+    width: 100%;
+    max-width: 360px;
+    margin: 25px 20px;
+    color: #000;
+}
+
+#contact textarea {
+    border: 1px solid rgb(153, 153, 153);
+    height: 100px;
+    outline: none;
+}
+
+.keuzes label input[type="radio"]:checked+span,
+.keuzes label input[type=checkbox]:checked+span {
+    border: 2px solid rgb(0, 136, 204);
+    padding: 19px;
+}
+
+input.datum {
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+}
+
+.keuzes label input[type=radio],
+.keuzes label input[type=checkbox] {
+    opacity: 0;
+    float: left;
+}
+
+.keuzes label div i,
+.keuzes label span i {
+    float: right;
+    color: #444;
+}
+
+.keuzes label span:hover {
+    border-color: #000;
+    cursor: pointer;
+}
+
+.keuzes input.contactgegevens:focus {
+    border-color: #000;
+}
+
+.samenvatting h2 {
+    font-size: 25px;
+}
+
+.pakket .samenvatting .btn {
+    padding: 10px 0;
+    width: 100%;
+    margin: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+#contact div.wpcf7-mail-sent-ok {
+    margin-top: -40px;
+}
+.featherlight div.wpcf7-mail-sent-ok {
+    position: fixed;
+    border: 2px solid #398f14;
+    height: 100px;
+    width: 800px;
+    padding: 35px 30px;
+    top: 80px;
+    background: #fff;
+}
+
+#duur span:nth-of-type(2) label span::after {
+    content: "+ € 49,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#duur span:nth-of-type(3) label span::after {
+    content: "+ € 98,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#ondersteuning span:nth-of-type(1) label span::after {
+    content: "+ € 15,- per uur";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #deelnemers span:nth-of-type(1) label span::after {
+    content: "- € 49,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #deelnemers span:nth-of-type(3) label span::after {
+    content: "+ € 399,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #promotiemateriaal span:nth-of-type(2) label span::after {
+    content: "+ € 15,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #aandenken span:nth-of-type(2) label span::after {
+    content: "+ € 29,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #extras span:nth-of-type(1) label span::after {
+    content: "+ € 199,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #extras span:nth-of-type(2) label span::after {
+    content: "+ € 49,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #extras span:nth-of-type(3) label span::after {
+    content: "+ € 5,- p.p.";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#standaard #extras span:nth-of-type(4) label span::after {
+    content: "+ € 99,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#compleet #deelnemers span:nth-of-type(2) label span::after {
+    content: "+ € 399,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#compleet #extras span:nth-of-type(1) label span::after {
+    content: "+ € 199,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#compleet #extras span:nth-of-type(2) label span::after {
+    content: "+ € 5,- p.p.";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+#compleet #extras span:nth-of-type(3) label span::after {
+    content: "+ € 99,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+
+/*** featherlight ****/
+
+.featherlight-content h4 {
+    color: #333;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+div.featherlight-content {
+    width: 90%;
+    max-width: 900px;
+}
+
+.vederlicht .scroll {}
+
+div.featherlight-content {
+    padding: 30px !important;
+    background: #fff !important;
+    color: #474747;
+}
+
+.featherlight-content div.vederlicht {
+    display: block !important;
+}
+
+.featherlight div.samenvatting {
+    position: fixed !important;
+    top: 45px;
+}
+
+
+/** Referenties **/
+
+#klanten {
+    color: #474747;
+    background: #dcdcdc;
+    margin: 0px;
+    padding: 30px 0 0 0;
+}
+
+#klanten h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+
+/** Contact **/
+
+#contact {
+    background: #ffffff;
+    color: #474747;
+    text-align: left;
+    margin: 0px;
+}
+
+#contact h1 {
+    margin-top: 30px;
+}
+
+#contact h2 {
+    font-size: 25px;
+}
+
+#contact .col-sm-8 {
+    padding: 0 0 0 50px;
+}
+
+#contact .container-fluid {
+    padding: 0px;
+}
+
+#contact .bedrijfgegevens {
+    background: #666;
+    color: #fff;
+    padding: 30px 30px 20px 30px;
+}
+
+#contact .btn {
+    margin-left: 200px;
+}
+
+#contact input,
+#contact textarea {
+    margin-left: 0px;
+}
+
+.googlemaps {
+    background: #474747;
+    height: 380px;
+}
+
+#contact .photos {
+    height: 100px;
+    width: 100%;
+    margin-left: 0;
+    z-index: 999;
+}
+
+.photos .col-xs-1 p {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    cursor: default;
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
+    opacity: 0;
+    transition: ease-in 0.3s;
+    margin: 0;
+}
+
+.photos .col-xs-1 p:hover {
+    opacity: 0.6;
+}
+
+
+.photos .luc {
+    background: url(img/luc.jpg) center;
+}
+
+.photos .joran {
+    background: url(img/joran.jpg) center;
+}
+
+.photos .sander {
+    background: url(img/sander.jpg) center;
+}
+
+.photos .wesley {
+    background: url(img/wesley.jpg) center;
+}
+
+.photos .sjoerd {
+    background: url(img/sjoerd.jpg) center;
+}
+
+.photos .abel {
+    background: url(img/abel.jpg) center;
+}
+
+.photos .lucas {
+    background: url(img/lucas.jpg) center;
+}
+
+.photos .wilco {
+    background: url(img/wilco.jpg) center;
+}
+
+.photos .max {
+    background: url(img/max.jpg) center;
+}
+
+.photos .yannick {
+    background: url(img/yannick.jpg) center;
+}
+
+.photos .sal {
+    background: url(img/sal.jpg) center;
+}
+.photos .lucwynne {
+    background: url(img/lucwynne.jpg) center;
+}
+
+.photos div {
+    height: 100%;
+    background-size: cover !important;
+    padding: 0;
+}
+
+
+/** Footer **/
+
+footer {
+    background: #474747;
+    text-align: left;
+    font-size: 12px;
+    padding: 15px 0;
+    line-height: 32px;
+}
+
+footer a {
+    color: #888;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer a.instagram img {
+    width: 86px;
+    height: 20px;
+}
+
+footer a.instagram:hover img {
+    opacity: 0.8;
+}
+
+footer .fb-like {
+    transform: translateY(-5px);
+    margin-left: 10px;
+}
+
+
+/***** NAVBAR ******/
+
+.navbar-custom {
+    background-color: #474747;
+    border-width: 0;
+    margin-top: -50px;
+}
+
+.navbar-custom .navbar-nav>li>a {
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-custom .dropdown-menu li>a:hover {
+    color: #eee;
+}
+
+.navbar-nav li .open,
+.navbar-custom .navbar-nav .active a,
+.navbar-custom .navbar-nav .active a:hover {
+    background-color: #333;
+    color: #fff;
+    border-bottom: 5px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.navbar-custom .navbar-nav li>a:hover,
+.navbar-custom .navbar-nav .active a:hover {
+    color: #fff;
+    border-bottom: 5px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.navbar-custom .navbar-nav>.dropdown>a .caret {
+    border-top-color: #999;
+    border-bottom-color: #999;
+}
+
+.navbar-brand img {
+    height: 25px;
+    margin-top: -2px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+div#nav.affix {
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-top: 0px;
+    z-index: 99999;
+    border-radius: 0px;
+    -webkit-transition: margin 1.5s 0.5s;
+    transition: margin 1.5s;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -50px;
+    visibility: hidden;
+}
+
+
+
+
+/**** REFERENTIES *****/
+
+.ms-slide-bgcont img {
+    margin-left: 0 !important;
+}
+
+.ms-slide-info {
+    padding-bottom: 30px;
+}
+
+#klanten .ms-info h3 a {
+    color: #333;
+}
+
+#klanten .master-slider-parent {
+    margin-top: 40px;
+}

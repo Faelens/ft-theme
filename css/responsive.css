@@ -1,0 +1,186 @@
+@media(max-width:767px) {
+    video#background,
+    #waarom {
+        display: none;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 15px;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    #header {
+        background: #d2d2d2 url(../img/bghome.png) no-repeat center;
+        color: #333;
+    }
+    #header h1 {
+        display: none;
+    }
+    #header img {
+        width: 180px;
+        margin: 30px 0;
+    }
+    .btn {
+        width: 60%;
+    }
+    #daarom .images-container,
+    #daarom div.photo {
+        display: none;
+    }
+    #daarom .images-phone {
+        display: block;
+        background: url(../img/phone.png) no-repeat center;
+        background-size: 100%;
+        width: 100%;
+        height: 300px;
+    }
+    #daarom h1 br {
+        display: none;
+    }
+    section#daarom {
+        padding: 30px 0 20px 0;
+    }
+    section#voordelen .image {
+        display: block;
+    }
+    section#voordelen h1 {
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    section#voordelen h2.subtitle {
+        display: none;
+    }
+    section#voordelen .content h2 {
+        font-size: 25px;
+    }
+    section#voordelen .content li {
+        font-size: 16px;
+        padding-left: 40px;
+        margin-left: 25px;
+    }
+    #jouwtoernooi h2 {
+        font-size: 30px;
+    }
+    #jouwtoernooi .col {
+        background: #222;
+        margin: 10px 0;
+    }
+    .featherlight div.samenvatting {
+        position: relative !important;
+    }
+    .photos {
+        display: none;
+    }
+    #contact .btn {
+        margin-left: 0px;
+    }
+    .googlemaps {
+        height: 200px;
+    }
+    #klanten h1 {
+        font-size: 30px;
+    }
+    .keuzes input.contactgegevens {
+        margin: 20px 0;
+    }
+    .pakket .samenvatting .btn {
+        margin: 20px 0;
+    }
+    footer .verhaal {
+        display: none;
+    }
+    .navbar-nav li .open,
+    .navbar-custom .navbar-nav .active a,
+    .navbar-custom .navbar-nav .active a:hover {
+        border-bottom: none;
+        padding-bottom: 10px;
+    }
+    .navbar-custom .navbar-nav li>a:hover,
+    .navbar-custom .navbar-nav .active a:hover {
+        border-bottom: none;
+        padding-bottom: 10px;
+    }
+    #klanten .master-slider-parent {
+        margin: 40px 0;
+    }
+    #klanten .ms-timerbar {
+        display: none;
+    }
+}
+
+@media(min-width:768px) {
+    #header h1,
+    #header h2 {
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, .9);
+        font-weight: 300;
+    }
+    #header .row {
+        position: absolute;
+        height: 420px;
+        top: 50%;
+        margin: auto;
+        margin-top: -210px;
+        width: 100%;
+    }
+    .samenvatting {
+        max-width: 300px;
+    }
+    .keuzes {
+        padding-left: 35px !important;
+    }
+}
+
+@media(min-width:992px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 28px;
+        margin-top: 5px;
+    }
+    #waarom .row .vak p.drie {
+        padding-top: 15px;
+    }
+    #waarom .row .vak.groot p {
+        padding: 40px 10px 0 10px;
+    }
+    .navbar-custom .navbar-nav>li>a {
+        color: #fff;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media(min-width:1200px) {
+    #waarom .row .vak p {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 992px) and (min-height: 600px) {
+    section#voordelen {
+        padding: 60px 0;
+    }
+    section#jouwtoernooi {
+        padding: 10px 0 40px 0;
+    }
+    ,
+    section#daarom {
+        padding-bottom: 120px;
+    }
+    #voordelen .row {
+        padding: 20px 0;
+    }
+    #jouwtoernooi h2 {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (device-width: 736px) and (orientation: landscape) {
+    .btn {
+        width: 21%;
+        margin: 0 1%;
+    }
+}
