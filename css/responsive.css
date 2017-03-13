@@ -108,6 +108,10 @@
     #klanten .ms-timerbar {
         display: none;
     }
+    .keuzes label div,
+.keuzes label span {
+    width: 400px;
+    }
 }
 
 @media(min-width:768px) {

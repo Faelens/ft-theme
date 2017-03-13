@@ -5,10 +5,10 @@
             <source src="<?php bloginfo('template_directory'); ?>/bg.mp4" type="video/mp4">
         </video>
         <div class="row ">
-            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="FIFA Tournament - FIFA toernooien op de PlayStation!" >
-            <h1 >Een voetbaltoernooi op de PlayStation 4</h1>
-            <div >
-                <a class="btn btn-custom" href="https://www.youtube.com/watch?v=Qk3W0XVlul0" rel="lightbox123" target="_blank">
+            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="FIFA Tournament - FIFA toernooien op de PlayStation!">
+            <h1>Een voetbaltoernooi op de PlayStation 4</h1>
+            <div>
+                <a class="btn btn-custom" href="https://www.youtube.com/watch?v=4oo81ClEHdg" rel="lightbox123" target="_blank">
                     <i class="fa fa-play pull-left"></i>Bekijk Film
                 </a>
                 <a class="btn btn-custom" href="http://facebook.com/fifatournament1" target="_blank">
@@ -53,6 +53,7 @@
         <div class="container">
             <div class="row title">
                 <h1>Waarom een FIFA toernooi?</h1>
+                <p>Plezier geven is ons doel. Samen met competitie. De deelnemers hebben plezier. Wij hebben plezier. Jij hebt plezier. Plezier zorgt voor de ultieme toernooi-ervaring. Wij gaan verder dan het neerzetten van de PlayStations en tv’s.</p>
             </div>
             <div class="row kwart">
                 <div class="col-md-3 col-sm-3 col-xs-12">
@@ -248,50 +249,96 @@
             <h1 style="margin-bottom: 10px;">Hoe ziet jouw FIFA toernooi er uit?</h1>
             <h2>Kies een van de pakketten en stel jouw eigen FIFA toernooi samen</h2>
             <a href="#" data-featherlight="#basis">
-                <div class="col col-sm-4 col-xs-12">
+                <div class="col product minst col-sm-3 col-xs-12">
                     <h2>Basis</h2>
-                    <p>Vriendschappelijke wedstrijden op de PlayStation.</p>
-                    <li class="hidden-xs">8x PlayStation 4</li>
-                    <li class="hidden-xs">8x FIFA 17</li>
-                    <li class="hidden-xs">8x 32" Full HD televisie</li>
+                    <p>Het instaptoernooi, ideaal voor kinderfeestjes, teambuilding of een personeelsuitje.</p>
+                    <div class="properties">
+                        <i class="fa fa-users"></i>tot 24 deelnemers
+                        <br>
+                        <i class="fa fa-user"></i>1 spelleider
+                        <br>
+                        <i class="fa fa-tv"></i>6x PS4 en 32" tv
+                        <br>
+                        <i class="fa fa-clock-o"></i>3 uur
+                    </div>
                     <li class="hidden-xs">Op- en afbouw</li>
-                    <h1>vanaf &euro; 66,50 per uur</h1>
+                    <li class="hidden-xs">Spelbegeleiding</li>
+                    <li class="hidden-xs">Toernooisoftware</li>
+                    <li class="hidden-xs">Aandenken winnaars</li>
+                    <h1>vanaf &euro; 12,50 p.p.</h1>
                 </div>
             </a>
             <a href="#" data-featherlight="#standaard">
-                <div class="col col-sm-4 col-xs-12">
+                <div class="col product col-sm-3 col-xs-12">
                     <h2>Standaard</h2>
-                    <p>Ons meest gekozen voetbaltoernooi op de PlayStation.</p>
-                    <li class="hidden-xs">8x PlayStation 4</li>
-                    <li class="hidden-xs">8x FIFA 17</li>
-                    <li class="hidden-xs">8x 32" Full HD televisie</li>
+                    <p>Het perfecte evenement voor kleinere groepen. Nu met groot finalescherm!</p>
+                    <div class="properties">
+                        <i class="fa fa-users"></i>tot 40 deelnemers
+                        <br>
+                        <i class="fa fa-user"></i>1 spelleider
+                        <br>
+                        <i class="fa fa-tv"></i>8x PS4 en 32" tv
+                        <br>
+                        <i class="fa fa-clock-o"></i>3,5 uur
+                    </div>
                     <li class="hidden-xs">Op- en afbouw</li>
-                    <li class="hidden-xs">Technische ondersteuning</li>
-                    <li class="hidden-xs">Toernooibegeleiding</li>
-                    <li class="hidden-xs">Online inschrijfomgeving</li>
-                    <li class="hidden-xs">Promotiemateriaal</li>
+                    <li class="hidden-xs">Spelbegeleiding</li>
                     <li class="hidden-xs">Toernooisoftware</li>
                     <li class="hidden-xs">Aandenken winnaars</li>
-                    <h1>vanaf &euro; 6,25 p.p.</h1>
+                    <li class="hidden-xs">Promotiemateriaal</li>
+                    <li class="hidden-xs">Online inschrijfomgeving</li>
+                    <li class="hidden-xs">Groot finalescherm</li>
+                    <h1>vanaf &euro; 9,00 p.p.</h1>
+                </div>
+            </a>
+            <a href="#" data-featherlight="#uitgebreid">
+                <div class="col meestgekozen product col-sm-3 col-xs-12">
+                    <div class="ribbon red"><span>Populair</span></div>
+                    <h2>Uitgebreid</h2>
+                    <p>Ons meest gekozen voetbaltoernooi op de PlayStation 4. Mét greenscreen voor een nog uniekere toernooi-ervaring.</p>
+                    <div class="properties">
+                        <i class="fa fa-users"></i>tot 80 deelnemers
+                        <br>
+                        <i class="fa fa-user"></i>2 spelleiders
+                        <br>
+                        <i class="fa fa-tv"></i>10x PS4 en 32" tv
+                        <br>
+                        <i class="fa fa-clock-o"></i>4 uur
+                    </div>
+                    <li class="hidden-xs">Op- en afbouw</li>
+                    <li class="hidden-xs">Spelbegeleiding</li>
+                    <li class="hidden-xs">Toernooisoftware</li>
+                    <li class="hidden-xs">Aandenken winnaars</li>
+                    <li class="hidden-xs">Promotiemateriaal</li>
+                    <li class="hidden-xs">Online inschrijfomgeving</li>
+                    <li class="hidden-xs">Groot finalescherm</li>
+                    <li class="hidden-xs">Greenscreen</li>
+                    <h1>vanaf &euro; 5,50 p.p.</h1>
                 </div>
             </a>
             <a href="#" data-featherlight="#compleet">
-                <div class="col col-sm-4 col-xs-12">
+                <div class="col product col-sm-3 col-xs-12">
                     <h2>Compleet</h2>
-                    <p>De ultieme toernooiervaring op de PlayStation en ons bioscoopscherm.</p>
-                    <li class="hidden-xs">8x PlayStation 4</li>
-                    <li class="hidden-xs">8x FIFA 17</li>
-                    <li class="hidden-xs">8x 32" Full HD televisie</li>
+                    <p>Een uitermate geschikt toernooi voor grote groepen. Professioneel, helder en overzichtelijk. Inclusief goodiebags.</p>
+                    <div class="properties">
+                        <i class="fa fa-users"></i>tot 140 deelnemers
+                        <br>
+                        <i class="fa fa-user"></i>2 spelleiders
+                        <br>
+                        <i class="fa fa-tv"></i>18x PS4 en 32" tv
+                        <br>
+                        <i class="fa fa-clock-o"></i>4,5 uur
+                    </div>
                     <li class="hidden-xs">Op- en afbouw</li>
-                    <li class="hidden-xs">Technische ondersteuning</li>
-                    <li class="hidden-xs">Toernooibegeleiding</li>
-                    <li class="hidden-xs">Bioscoopscherm</li>
-                    <li class="hidden-xs">Online inschrijfomgeving</li>
-                    <li class="hidden-xs">Gedrukt promotiemateriaal</li>
+                    <li class="hidden-xs">Spelbegeleiding</li>
                     <li class="hidden-xs">Toernooisoftware</li>
-                    <li class="hidden-xs">Bekers en vette prijzen winnaars</li>
-                    <li class="hidden-xs">Foto's</li>
-                    <h1>vanaf &euro; 10,95 p.p.</h1>
+                    <li class="hidden-xs">Aandenken winnaars</li>
+                    <li class="hidden-xs">Promotiemateriaal</li>
+                    <li class="hidden-xs">Online inschrijfomgeving</li>
+                    <li class="hidden-xs">Groot finalescherm</li>
+                    <li class="hidden-xs">Greenscreen</li>
+                    <li class="hidden-xs">Goodiebags</li>
+                    <h1>vanaf &euro; 5,00 p.p.</h1>
                 </div>
             </a>
         </div>
@@ -299,10 +346,25 @@
 
         <div id="basis" class="vederlicht pakket" style="display:none;">
             <?php echo do_shortcode( '[contact-form-7 id="903" title="Basis toernooi"]' ); ?>
+                <div id="form-success" class="hidden">
+                    <h3>Bedankt!</h3>
+                    <p>Je aanvraag is succesvol ontvangen. Wij nemen zo snel mogelijk contact met je op via de door jouw aangegeven contactinformatie.</p>
+                </div>
 
         </div>
         <div id="standaard" class="vederlicht pakket" style="display:none;">
             <?php echo do_shortcode( '[contact-form-7 id="904" title="Standaard toernooi"]' ); ?>
+                <div id="form-success" class="hidden">
+                    <h3>Bedankt!</h3>
+                    <p>Je aanvraag is succesvol ontvangen. Wij nemen zo snel mogelijk contact met je op via de door jouw aangegeven contactinformatie.</p>
+                </div>
+        </div>
+        <div id="uitgebreid" class="vederlicht pakket" style="display:none;">
+            <?php echo do_shortcode( '[contact-form-7 id="1445" title="Uitgebreid toernooi"]' ); ?>
+                <div id="form-success" class="hidden">
+                    <h3>Bedankt!</h3>
+                    <p>Je aanvraag is succesvol ontvangen. Wij nemen zo snel mogelijk contact met je op via de door jouw aangegeven contactinformatie.</p>
+                </div>
         </div>
         <div id="compleet" class="vederlicht pakket" style="display:none;">
             <?php echo do_shortcode( '[contact-form-7 id="905" title="Standaard toernooi"]' ); ?>
@@ -331,7 +393,7 @@
                     <h2>FIFA Tournament helpt je graag</h2>
                     <p>Laat via onderstaand formulier je gegevens achter en wij nemen contact met je op.</p>
                     <?php echo do_shortcode( '[contact-form-7 id="63" title="Contactformulier"]' ); ?>
-                    <p>*: Velden met een ster zijn verplicht.</p>
+                        <p>*: Velden met een ster zijn verplicht.</p>
                 </div>
                 <div class="col-sm-4">
                     <div class="bedrijfgegevens">

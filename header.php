@@ -13,6 +13,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="//cdn.rawgit.com/noelboss/featherlight/1.3.4/release/featherlight.min.css" type="text/css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/ab629727c0.js"></script>
     <link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/responsive.css" rel="stylesheet">
     <link href="<?php bloginfo('template_directory'); ?>/css/animations.css" rel="stylesheet">

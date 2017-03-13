@@ -51,6 +51,7 @@ h2 {
     margin-top: 5px;
 }
 
+.aligncenter {text-align: center;}
 
 /** HEADER **/
 
@@ -439,9 +440,73 @@ section#voordelen .row {
     margin-top: 5px;
 }
 
-#jouwtoernooi .col:hover {
+#jouwtoernooi .col.product {
+    background: rgba(0, 0, 0, 0.2);
+}
+#jouwtoernooi .col.product.minst {
+    background: rgba(0, 0, 0, 0.1);
+}
+#jouwtoernooi .col.product.meestgekozen {
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+#jouwtoernooi .col.product:hover {
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.ribbon {
+   position: absolute;
+   right: -5px; top: -5px;
+   z-index: 1;
+   overflow: hidden;
+   width: 75px; height: 75px; 
+   text-align: right;
+}
+.ribbon span {
+   font-size: 10px;
+   color: #fff; 
+   text-transform: uppercase; 
+   text-align: center;
+   font-weight: bold; line-height: 20px;
+   transform: rotate(45deg);
+   width: 100px; display: block;
+   background: #8F0808;
+   background: linear-gradient(#F70505 0%, #8F0808 100%);;
+   box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+   position: absolute;
+   top: 19px; right: -21px;
+}
+.ribbon span::before {
+   content: '';
+   position: absolute; 
+   left: 0px; top: 100%;
+   z-index: -1;
+   border-left: 3px solid #8F0808;
+   border-right: 3px solid transparent;
+   border-bottom: 3px solid transparent;
+   border-top: 3px solid #8F0808;
+}
+.ribbon span::after {
+   content: '';
+   position: absolute; 
+   right: 0%; top: 100%;
+   z-index: -1;
+   border-right: 3px solid #8F0808;
+   border-left: 3px solid transparent;
+   border-bottom: 3px solid transparent;
+   border-top: 3px solid #8F0808;
+}
+.red span {}
+.red span::before {border-left-color: #8F0808; border-top-color: #8F0808;}
+.red span::after {border-right-color: #8F0808; border-top-color: #8F0808;}
+
+#jouwtoernooi .col.product .properties
+{ margin: 20px 0 10px 0;}
+#jouwtoernooi .col.product .fa {
+    width: 35px;
+    margin-left: 10px;
 }
 
 .keuzes label {
@@ -459,9 +524,9 @@ section#voordelen .row {
     border: 1px solid rgb(153, 153, 153);
     font-style: normal;
     width: 100%;
-    max-width: 500px;
+    width: 500px;
     padding: 20px;
-    margin: 5px 0;
+    margin: 15px 0;
     color: #000;
 }
 
@@ -582,43 +647,55 @@ input:focus {
     font-style: italic;
 }
 
-#standaard #promotiemateriaal span:nth-of-type(2) label span::after {
+.pakket #promotiemateriaal span:nth-of-type(2) label span::after {
     content: "+ € 15,-";
     float: right;
     color: #444;
     font-style: italic;
 }
+.pakket #promotiemateriaal span:nth-of-type(3) label span::after {
+    content: "+ € 30,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
 
-#standaard #aandenken span:nth-of-type(2) label span::after {
+.pakket #aandenken span:nth-of-type(2) label span::after {
     content: "+ € 29,-";
     float: right;
     color: #444;
     font-style: italic;
 }
 
-#standaard #extras span:nth-of-type(1) label span::after {
-    content: "+ € 199,-";
-    float: right;
-    color: #444;
-    font-style: italic;
-}
-
-#standaard #extras span:nth-of-type(2) label span::after {
+.pakket #extras span:nth-of-type(1) label span::after {
     content: "+ € 49,-";
     float: right;
     color: #444;
     font-style: italic;
 }
 
-#standaard #extras span:nth-of-type(3) label span::after {
-    content: "+ € 5,- p.p.";
+.pakket #extras span:nth-of-type(2) label span::after {
+    content: "+ € 199,-";
     float: right;
     color: #444;
     font-style: italic;
 }
 
-#standaard #extras span:nth-of-type(4) label span::after {
+.pakket #extras span:nth-of-type(3) label span::after {
+    content: "+ € 49,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+
+.pakket #extras span:nth-of-type(4) label span::after {
     content: "+ € 99,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+.pakket #extras span:nth-of-type(5) label span::after {
+    content: "+ € 5,- p.p.";
     float: right;
     color: #444;
     font-style: italic;
@@ -632,20 +709,26 @@ input:focus {
 }
 
 #compleet #extras span:nth-of-type(1) label span::after {
-    content: "+ € 199,-";
+    content: "+ € 49,-";
     float: right;
     color: #444;
     font-style: italic;
 }
 
 #compleet #extras span:nth-of-type(2) label span::after {
-    content: "+ € 5,- p.p.";
+    content: "+ € 199,-";
     float: right;
     color: #444;
     font-style: italic;
 }
 
 #compleet #extras span:nth-of-type(3) label span::after {
+    content: "+ € 49,-";
+    float: right;
+    color: #444;
+    font-style: italic;
+}
+#compleet #extras span:nth-of-type(4) label span::after {
     content: "+ € 99,-";
     float: right;
     color: #444;
@@ -663,7 +746,7 @@ input:focus {
 
 div.featherlight-content {
     width: 90%;
-    max-width: 900px;
+    max-width: 650px;
 }
 
 .vederlicht .scroll {}
