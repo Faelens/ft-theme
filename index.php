@@ -319,7 +319,7 @@
             <a href="#" data-featherlight="#compleet">
                 <div class="col product col-sm-3 col-xs-12">
                     <h2>Compleet</h2>
-                    <p>Een uitermate geschikt toernooi voor grote groepen. Professioneel, helder en overzichtelijk. Inclusief goodiebags.</p>
+                    <p>Een uitermate geschikt toernooi voor grote groepen. Professioneel, helder en overzichtelijk. Extra veel deelnemers.</p>
                     <div class="properties">
                         <i class="fa fa-users"></i>tot 140 deelnemers
                         <br>
@@ -337,7 +337,6 @@
                     <li class="hidden-xs">Online inschrijfomgeving</li>
                     <li class="hidden-xs">Groot finalescherm</li>
                     <li class="hidden-xs">Greenscreen</li>
-                    <li class="hidden-xs">Goodiebags</li>
                     <h1>vanaf &euro; 5,00 p.p.</h1>
                 </div>
             </a>
