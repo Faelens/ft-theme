@@ -412,9 +412,6 @@
                 </div>
             </div>
             <div class="row photos">
-                <div class="col-md-1 col-xs-1 joran">
-                    <p>Joran</p>
-                </div>
                 <div class="col-md-1 col-xs-1 lucas">
                     <p>Lucas</p>
                 </div>
@@ -429,6 +426,9 @@
                 </div>
                 <div class="col-md-1 col-xs-1 abel">
                     <p>Abel</p>
+                </div>
+                <div class="col-md-1 col-xs-1 joran">
+                    <p>Joran</p>
                 </div>
                 <div class="col-md-1 col-xs-1 sjoerd">
                     <p>Sjoerd</p>
