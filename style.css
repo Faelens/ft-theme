@@ -821,6 +821,9 @@ div.featherlight-content {
     margin-left: 0;
     z-index: 999;
 }
+.photos .col-xs-1 {
+    width: 9.09%;
+}
 
 .photos .col-xs-1 p {
     background: #000;
@@ -883,9 +886,6 @@ div.featherlight-content {
 
 .photos .sal {
     background: url(img/sal.jpg) center;
-}
-.photos .lucwynne {
-    background: url(img/lucwynne.jpg) center;
 }
 
 .photos div {

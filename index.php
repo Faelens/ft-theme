@@ -430,9 +430,6 @@
                 <div class="col-md-1 col-xs-1 abel">
                     <p>Abel</p>
                 </div>
-                <div class="col-md-1 col-xs-1 lucwynne">
-                    <p>Luc</p>
-                </div>
                 <div class="col-md-1 col-xs-1 sjoerd">
                     <p>Sjoerd</p>
                 </div>
