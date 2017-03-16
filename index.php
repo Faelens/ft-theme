@@ -396,9 +396,12 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="bedrijfgegevens">
-                        <p><strong>Adres:</strong>
-                            <br> Peperstraat 142
-                            <br> 2801 RH Gouda</p>
+                        <p><strong>Bezoekadres:</strong>
+                            <br> Beursplein 37
+                            <br> 3011 AA Rotterdam</p>
+                        <p><strong>Postadres:</strong>
+                            <br> Postbus 30223
+                            <br> 3001 DE Rotterdam</p>
 
                         <p><em>Kvk-nummer: 54172772<br>
                 BTW-nummer: NL214977419B01<br>
