@@ -377,7 +377,7 @@
     <a class="anchor" id="referenties"></a>
 
     <section id="klanten">
-        <h1>Onze klanten beoordelen FIFA Tournament met een 8,5</h1>
+        <h1>Onze klanten beoordelen FIFA Tournament met een 8,6</h1>
         <h2>70% organiseert binnen een jaar opnieuw een toernooi</h2>
         <?php masterslider(3); ?>
     </section>
