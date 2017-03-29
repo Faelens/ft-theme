@@ -87,22 +87,43 @@
 </script>
 <!-- Make the Contact Form 7 give messages within the featherlight -->
 <script>
- /* attach a submit handler to the form */
    $( "body" ).on( "submit", "#basis .wpcf7-form", function(event) {
-
-        /* stop form from submitting normally */
         event.preventDefault();
-
-        /* get some values from elements on the page: */
         var $form = $( this ),
           url = $form.attr( 'action' );
-
-        /* Send the data using post */
         var posting = $.post( url, $form.serialize() );
-
-        /* Put the results in a div */
         posting.done(function(data) {
             var content = $(data).find('#basis .wpcf7-form');
+            $('.featherlight .wpcf7').empty().append(content);
+        });
+    });
+   $( "body" ).on( "submit", "#standaard .wpcf7-form", function(event) {
+        event.preventDefault();
+        var $form = $( this ),
+          url = $form.attr( 'action' );
+        var posting = $.post( url, $form.serialize() );
+        posting.done(function(data) {
+            var content = $(data).find('#standaard .wpcf7-form');
+            $('.featherlight .wpcf7').empty().append(content);
+        });
+    });
+   $( "body" ).on( "submit", "#uitgebreid .wpcf7-form", function(event) {
+        event.preventDefault();
+        var $form = $( this ),
+          url = $form.attr( 'action' );
+        var posting = $.post( url, $form.serialize() );
+        posting.done(function(data) {
+            var content = $(data).find('#uitgebreid .wpcf7-form');
+            $('.featherlight .wpcf7').empty().append(content);
+        });
+    });
+   $( "body" ).on( "submit", "#compleet .wpcf7-form", function(event) {
+        event.preventDefault();
+        var $form = $( this ),
+          url = $form.attr( 'action' );
+        var posting = $.post( url, $form.serialize() );
+        posting.done(function(data) {
+            var content = $(data).find('#compleet .wpcf7-form');
             $('.featherlight .wpcf7').empty().append(content);
         });
     });
