@@ -458,7 +458,7 @@
                 <br> <a href="mailto:luc@fifatournament.com">FIFA toernooi voor bedrijven</a>
             </div>
             <div class="col-sm-3 col-xs-12"><strong>FIFA Tournament.com</strong>
-                <br>© Copyright 2016
+                <br>© Copyright <?php echo date('Y'); ?>
                 <br> Alle rechten voorbehouden
                 <br> <a href="http://www.fifatournament.com/sitemap_index.xml">Sitemap</a> - <a href="http://www.fifatournament.com/privacybeleid.pdf">Privacybeleid</a> - <a href="http://www.fifatournament.com/disclaimer.pdf">Disclaimer</a>
                 <br>
