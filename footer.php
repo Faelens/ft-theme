@@ -85,6 +85,28 @@
 
     });
 </script>
+<!-- Make the Contact Form 7 give messages within the featherlight -->
+<script>
+ /* attach a submit handler to the form */
+   $( "body" ).on( "submit", ".wpcf7-form", function(event) {
+
+        /* stop form from submitting normally */
+        event.preventDefault();
+
+        /* get some values from elements on the page: */
+        var $form = $( this ),
+          url = $form.attr( 'action' );
+
+        /* Send the data using post */
+        var posting = $.post( url, $form.serialize() );
+
+        /* Put the results in a div */
+        posting.done(function(data) {
+            var content = $(data).find('.wpcf7-form');
+            $('.featherlight .wpcf7').empty().append(content);
+        });
+    });
+    </script>
 <?php wp_footer(); ?>
 
     </body>
