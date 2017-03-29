@@ -344,7 +344,7 @@
 
 
         <div id="basis" class="vederlicht pakket" style="display:none;">
-            <?php echo do_shortcode( '[contact-form-7 id="903" title="Basis toernooi"]' ); ?>
+            <?php echo do_shortcode( '[contact-form-7 id="903" title="Basis toernooi" html_class="contact_form"]' ); ?>
                 <div id="form-success" class="hidden">
                     <h3>Bedankt!</h3>
                     <p>Je aanvraag is succesvol ontvangen. Wij nemen zo snel mogelijk contact met je op via de door jouw aangegeven contactinformatie.</p>
@@ -352,7 +352,7 @@
 
         </div>
         <div id="standaard" class="vederlicht pakket" style="display:none;">
-            <?php echo do_shortcode( '[contact-form-7 id="904" title="Standaard toernooi"]' ); ?>
+            <?php echo do_shortcode( '[contact-form-7 id="904" title="Standaard toernooi" html_class="contact_form]' ); ?>
                 <div id="form-success" class="hidden">
                     <h3>Bedankt!</h3>
                     <p>Je aanvraag is succesvol ontvangen. Wij nemen zo snel mogelijk contact met je op via de door jouw aangegeven contactinformatie.</p>
