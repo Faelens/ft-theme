@@ -88,7 +88,7 @@
 <!-- Make the Contact Form 7 give messages within the featherlight -->
 <script>
  /* attach a submit handler to the form */
-   $( "body" ).on( "submit", ".wpcf7-form", function(event) {
+   $( ".contact_form" ).on( "submit", ".wpcf7-form", function(event) {
 
         /* stop form from submitting normally */
         event.preventDefault();
