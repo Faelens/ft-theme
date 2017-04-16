@@ -453,7 +453,7 @@
         <div class="container">
             <div class="col-sm-3 col-xs-12"><strong>Menu</strong>
                 <br> <a href="http://www.fifatournament.com/algemenetoernooivoorwaarden.pdf">Algemene voorwaarden</a>
-                <br> <a href="#">Toernooiregels</a>
+                <br> <a href="http://werkenbij.fifatournament.com">Werken bij</a>
                 <br> <a href="mailto:luc@fifatournament.com">Kinderfeesten</a>
                 <br> <a href="mailto:luc@fifatournament.com">FIFA toernooi voor bedrijven</a>
             </div>
