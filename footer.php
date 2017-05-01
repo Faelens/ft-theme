@@ -7,7 +7,7 @@
 <script src="<?php bloginfo('template_directory'); ?>/js/css3-animate-it.js"></script>
 
 <!-- GOOGLE MAPS -->
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?v=3&sensor=false"></script>
 <script type="text/javascript">
     window.onload = function LoadGmaps() {
         var myLatlng = new google.maps.LatLng(52.0072815, 4.7123284);
