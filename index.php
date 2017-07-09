@@ -412,38 +412,38 @@
                 </div>
             </div>
             <div class="row photos">
-                <div class="col-md-1 col-xs-1 lucas">
-                    <p>Lucas</p>
-                </div>
-                <div class="col-md-1 col-xs-1 sander">
-                    <p>Sander</p>
-                </div>
-                <div class="col-md-1 col-xs-1 wesley">
-                    <p>Wesley</p>
-                </div>
-                <div class="col-md-1 col-xs-1 max">
-                    <p>Max</p>
-                </div>
                 <div class="col-md-1 col-xs-1 abel">
                     <p>Abel</p>
+                </div>
+                <div class="col-md-1 col-xs-1 jona">
+                    <p>Jonathan</p>
                 </div>
                 <div class="col-md-1 col-xs-1 joran">
                     <p>Joran</p>
                 </div>
-                <div class="col-md-1 col-xs-1 sjoerd">
-                    <p>Sjoerd</p>
-                </div>
-                <div class="col-md-1 col-xs-1 yannick">
-                    <p>Yannick</p>
-                </div>
-                <div class="col-md-1 col-xs-1 wilco">
-                    <p>Wilco</p>
-                </div>
                 <div class="col-md-1 col-xs-1 luc">
                     <p>Luc</p>
                 </div>
-                <div class="col-md-1 col-xs-1 sal">
-                    <p>Sal</p>
+                <div class="col-md-1 col-xs-1 maxp">
+                    <p>Max</p>
+                </div>
+                <div class="col-md-1 col-xs-1 niels">
+                    <p>Niels</p>
+                </div>
+                <div class="col-md-1 col-xs-1 olav">
+                    <p>Olav</p>
+                </div>
+                <div class="col-md-1 col-xs-1 sjoerd">
+                    <p>Sjoerd</p>
+                </div>
+                <div class="col-md-1 col-xs-1 thijmen">
+                    <p>Thijmen</p>
+                </div>
+                <div class="col-md-1 col-xs-1 tim">
+                    <p>Tim</p>
+                </div>
+                <div class="col-md-1 col-xs-1 wesley">
+                    <p>Wesley</p>
                 </div>
             </div>
         </div>

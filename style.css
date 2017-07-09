@@ -851,11 +851,6 @@ div.featherlight-content {
 .photos .joran {
     background: url(img/joran.jpg) center;
 }
-
-.photos .sander {
-    background: url(img/sander.jpg) center;
-}
-
 .photos .wesley {
     background: url(img/wesley.jpg) center;
 }
@@ -868,24 +863,28 @@ div.featherlight-content {
     background: url(img/abel.jpg) center;
 }
 
-.photos .lucas {
-    background: url(img/lucas.jpg) center;
+.photos .maxp {
+    background: url(img/maxp.jpg) center;
 }
 
-.photos .wilco {
-    background: url(img/wilco.jpg) center;
+.photos .jona {
+    background: url(img/jona.jpg) center;
 }
 
-.photos .max {
-    background: url(img/max.jpg) center;
+.photos .niels {
+    background: url(img/niels.jpg) center;
 }
 
-.photos .yannick {
-    background: url(img/yannick.jpg) center;
+.photos .olav {
+    background: url(img/olav.jpg) center;
 }
 
-.photos .sal {
-    background: url(img/sal.jpg) center;
+.photos .thijmen {
+    background: url(img/thijmen.jpg) center;
+}
+
+.photos .tim {
+    background: url(img/tim.jpg) center;
 }
 
 .photos div {
