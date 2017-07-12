@@ -258,7 +258,7 @@
                         <i class="fa fa-user"></i>Online toernooisoftware
                     </div>
                     <li class="hidden-xs">Toernooisoftware</li>
-                    <h1>vanaf &euro; 3,99 p.p.</h1>
+                    <h1>vanaf 3,99 p.p.</h1>
                 </div>
             </a>
             <a href="#" data-featherlight="#standaard">
@@ -281,7 +281,7 @@
                     <li class="hidden-xs">Promotiemateriaal</li>
                     <li class="hidden-xs">Online inschrijfomgeving</li>
                     <li class="hidden-xs">Groot finalescherm</li>
-                    <h1>vanaf &euro; 9,00 p.p.</h1>
+                    <h1>vanaf  9,00 p.p.</h1>
                 </div>
             </a>
             <a href="#" data-featherlight="#uitgebreid">
@@ -306,7 +306,7 @@
                     <li class="hidden-xs">Online inschrijfomgeving</li>
                     <li class="hidden-xs">Groot finalescherm</li>
                     <li class="hidden-xs">Greenscreen</li>
-                    <h1>vanaf &euro; 5,50 p.p.</h1>
+                    <h1>vanaf 5,50 p.p.</h1>
                 </div>
             </a>
             <a href="#" data-featherlight="#compleet">
@@ -330,7 +330,7 @@
                     <li class="hidden-xs">Online inschrijfomgeving</li>
                     <li class="hidden-xs">Groot finalescherm</li>
                     <li class="hidden-xs">Greenscreen</li>
-                    <h1>vanaf &euro; 5,00 p.p.</h1>
+                    <h1>vanaf 5,00 p.p.</h1>
                 </div>
             </a>
         </div>
