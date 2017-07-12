@@ -248,24 +248,17 @@
         <div class="container-fluid">
             <h1 style="margin-bottom: 10px;">Hoe ziet jouw FIFA toernooi er uit?</h1>
             <h2>Kies een van de pakketten en stel jouw eigen FIFA toernooi samen</h2>
-            <a href="#" data-featherlight="#basis">
+            <a href="#">
                 <div class="col product minst col-sm-3 col-xs-12">
-                    <h2>Basis</h2>
-                    <p>Het instaptoernooi, ideaal voor kinderfeestjes, teambuilding of een personeelsuitje.</p>
+                    <h2>Coming soon</h2>
+                    <p>Organiseer zelf je toernooi! Jij regelt de hardware, gebruik onze toernooisoftware.</p>
                     <div class="properties">
                         <i class="fa fa-users"></i>tot 24 deelnemers
                         <br>
-                        <i class="fa fa-user"></i>1 spelleider
-                        <br>
-                        <i class="fa fa-tv"></i>6x PS4 en 32" tv
-                        <br>
-                        <i class="fa fa-clock-o"></i>3 uur
+                        <i class="fa fa-user"></i>Online toernooisoftware
                     </div>
-                    <li class="hidden-xs">Op- en afbouw</li>
-                    <li class="hidden-xs">Spelbegeleiding</li>
                     <li class="hidden-xs">Toernooisoftware</li>
-                    <li class="hidden-xs">Aandenken winnaars</li>
-                    <h1>vanaf &euro; 12,50 p.p.</h1>
+                    <h1>vanaf &euro; 3,99 p.p.</h1>
                 </div>
             </a>
             <a href="#" data-featherlight="#standaard">
