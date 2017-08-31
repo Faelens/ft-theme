@@ -9,10 +9,23 @@ Author: Luc Faëlens
 Author URI: http://www.faelens.nl/
 */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Roboto:100,300);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:400,700);
 html {
     height: 100%;
     -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+    font-family: 'Bold Font';
+    src: url('fonts/theboldfont-webfont.eot');
+    src: url('fonts/theboldfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/theboldfont-webfont.woff2') format('woff2'),
+         url('fonts/theboldfont-webfont.woff') format('woff'),
+         url('fonts/theboldfont-webfont.ttf') format('truetype'),
+         url('fonts/theboldfont-webfont.svg#the_bold_fontbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
@@ -20,7 +33,7 @@ body {
     color: #fff;
     -webkit-font-smoothing: antialiased;
     height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, sans-serif;
     font-weight: 300;
     overflow-x: hidden;
 }
@@ -36,19 +49,24 @@ a:visited {
 }
 
 h1,
-h2,
-h3 {
-    font-family: 'Roboto', sans-serif;
+h2 {
+    font-family: 'Bold Font', Arial, sans-serif;
     font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 25px;
 }
 
 h2 {
     font-size: 24px;
     margin-top: 5px;
+}
+
+h3 {
+	font-family: 'Inconsolata', 'Times New Roman', serif;
 }
 
 .aligncenter {text-align: center;}
@@ -86,22 +104,21 @@ video#background {
 
 .btn,
 .btn-custom {
-    background-color: #474747;
+    background-color: #fff;
     line-height: 14px;
-    font-size: 15px;
-    border-color: #474747;
-    color: #fff !important;
-    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.00);
+    font-size: 13px;
+    border-color: #fff;
+    color: #000 !important;
     transition: ease-in 0.3s;
     text-transform: uppercase;
-    margin-top: 7px;
+    margin-top: 8px;
     margin-right: 20px;
     padding: 13px 20px;
 }
 
 .btn:hover,
 .btn-custom:hover {
-    background-color: #333 !important;
+    background-color: #ccc !important;
 }
 
 
@@ -109,16 +126,19 @@ video#background {
 
 section#waarom {
     background: #fff;
-    color: #333;
+    color: #000;
     text-align: center;
     padding: 30px 0;
 }
 
 #waarom .row.title {
-    height: 130px;
+    height: 180px;
     padding: 0;
 }
 
+#waarom p {
+	padding: 30px 0;
+}
 #waarom .row .col-md-3,
 #waarom .row .col-md-4,
 #waarom .row .col-md-8 {
@@ -127,7 +147,7 @@ section#waarom {
 
 #waarom .row .vak {
     width: 100%;
-    background: #3b3b3b;
+    background: #000;
     color: #fff;
     height: 150px;
     padding: 0 5px;
@@ -179,25 +199,10 @@ section#waarom {
     background-size: cover;
 }
 
-#waarom .row .vak.competitie {
-    background: #c7c7c7;
-}
-
-#waarom .row .vak.competitie h2,
-#waarom .row .vak.competitie p,
-#waarom .row .vak.groot h2,
-#waarom .row .vak.groot p {
-    color: #333;
-}
-
 #waarom .row .vak.groot {
-    background: #dbdbdb;
     height: 330px;
 }
 
-#waarom .row .vak.verbroedering {
-    background: #6c6c6c;
-}
 
 #waarom .row .vak:hover p,
 #waarom .row .vak h2 {
@@ -215,8 +220,8 @@ section#waarom {
 /** DAAROM **/
 
 section#daarom {
-    background: #dcdcdc;
-    color: #474747;
+    background: #fff;
+    color: #000;
     text-align: center;
     padding: 30px 0 60px 0;
 }
@@ -319,18 +324,13 @@ img.tv {
 /** VOORDELEN **/
 
 section#voordelen {
-    background: #555557;
+    background: #000;
     color: #fff;
     padding: 30px 0;
 }
 
-section#voordelen h1 {
-    font-size: 40px;
-}
-
 section#voordelen h2 {
     color: #fff;
-    font-size: 30px;
 }
 
 section#voordelen h2.subtitle {
@@ -360,7 +360,7 @@ section#voordelen .content h2 {
     color: #fff;
     float: none;
     font-weight: 100;
-    font-size: 25px;
+    font-size: 20px;
     transition: ease-in 0.3s;
     text-align: left;
 }
@@ -758,8 +758,8 @@ div.featherlight-content {
 /** Referenties **/
 
 #klanten {
-    color: #474747;
-    background: #dcdcdc;
+    color: #000;
+    background: #fff;
     margin: 0px;
     padding: 30px 0 0 0;
 }
@@ -774,7 +774,7 @@ div.featherlight-content {
 
 #contact {
     background: #ffffff;
-    color: #474747;
+    color: #000;
     text-align: left;
     margin: 0px;
 }
@@ -796,12 +796,18 @@ div.featherlight-content {
 }
 
 #contact .bedrijfgegevens {
-    background: #666;
+    background: #000;
     color: #fff;
     padding: 30px 30px 20px 30px;
 }
 
-#contact .btn {
+#contact .btn, #contact .btn-custom {
+    background-color: #000;
+    line-height: 14px;
+    font-size: 13px;
+    border-color: #000;
+    color: #fff !important;
+    text-transform: none;
     margin-left: 200px;
 }
 
@@ -897,7 +903,7 @@ div.featherlight-content {
 /** Footer **/
 
 footer {
-    background: #474747;
+    background: #000;
     text-align: left;
     font-size: 12px;
     padding: 15px 0;
@@ -930,7 +936,7 @@ footer .fb-like {
 /***** NAVBAR ******/
 
 .navbar-custom {
-    background-color: #474747;
+    background-color: #000;
     border-width: 0;
     margin-top: -50px;
 }
@@ -948,9 +954,8 @@ footer .fb-like {
 .navbar-nav li .open,
 .navbar-custom .navbar-nav .active a,
 .navbar-custom .navbar-nav .active a:hover {
-    background-color: #333;
     color: #fff;
-    border-bottom: 5px solid #ddd;
+    border-bottom: 5px solid #fff;
     padding-bottom: 10px;
 }
 
@@ -973,7 +978,7 @@ footer .fb-like {
 
 .navbar {
     margin-bottom: 0px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
 }
 
 div#nav.affix {

@@ -133,15 +133,16 @@
     }
     .keuzes {
         padding-left: 35px !important;
+    
     }
 }
 
 @media(min-width:992px) {
     h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     h2 {
-        font-size: 28px;
+        font-size: 20px;
         margin-top: 5px;
     }
     #waarom .row .vak p.drie {

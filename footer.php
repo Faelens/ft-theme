@@ -10,9 +10,9 @@
 <script type="text/javascript" src="https://maps-api-ssl.google.com/maps/api/js?v=3&sensor=false"></script>
 <script type="text/javascript">
     window.onload = function LoadGmaps() {
-        var myLatlng = new google.maps.LatLng(52.0072815, 4.7123284);
+        var myLatlng = new google.maps.LatLng(51.920871, 4.480993);
         var myOptions = {
-            zoom: 16,
+            zoom: 15,
             center: myLatlng,
             disableDefaultUI: true,
             panControl: false,
