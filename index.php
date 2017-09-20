@@ -5,7 +5,7 @@
             <source src="<?php bloginfo('template_directory'); ?>/bg.mp4" type="video/mp4">
         </video>
         <div class="row ">
-            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Ultimate Esports - FIFA toernooien op de PlayStation!">
+            <img src="<?php bloginfo('template_directory'); ?>/img/logo.png" alt="Weplay Esports - FIFA toernooien op de PlayStation!">
             <h1>Een voetbaltoernooi op de PlayStation 4</h1>
             <div>
                 <a class="btn btn-custom" href="https://www.youtube.com/watch?v=4oo81ClEHdg" rel="lightbox123" target="_blank">
@@ -36,7 +36,7 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#header">Ultimate Esports</a></li>
+                    <li class="active"><a href="#header">WePlay Esports</a></li>
                     <li><a href="#waaromfifatournament">Waarom</a></li>
                     <li><a href="#voordelenfifatoernooi">Ons concept</a></li>
                     <li><a href="#jouwfifatoernooi">Jouw toernooi</a></li>
@@ -132,7 +132,7 @@
 
     <section id="daarom">
         <div class="container-fluid">
-            <h1>Ultimate Esports is de grootste aanbieder<br>
+            <h1>WePlay Esports is de grootste aanbieder<br>
           van FIFA toernooien in Belgi&euml; en Nederland</h1>
             <div class="row photo"> </div>
             <div class="images-container animatedParent animateOnce">
@@ -149,7 +149,7 @@
 
     <section id="voordelen">
         <div class="container">
-            <h1>Ultimate Esports neemt alles uit handen</h1>
+            <h1>WePlay Esports neemt alles uit handen</h1>
             <h2 class="subtitle">Jouw toernooi wordt gegarandeerd een succes</h2>
 
             <div class="row">
@@ -370,7 +370,7 @@
     <a class="anchor" id="referenties"></a>
 
     <section id="klanten">
-        <h1>Onze klanten beoordelen Ultimate Esports met een 8,6</h1>
+        <h1>Onze klanten beoordelen WePlay Esports met een 8,6</h1>
         <h2>70% organiseert binnen een jaar opnieuw een toernooi</h2>
         <?php masterslider(3); ?>
     </section>
@@ -382,7 +382,7 @@
             <div class="row">
                 <div class="col-sm-8">
                     <h1>Heb jij een andere vraag?</h1>
-                    <h2>Ultimate Esports helpt je graag</h2>
+                    <h2>WePlay Esports helpt je graag</h2>
                     <p>Laat via onderstaand formulier je gegevens achter en wij nemen contact met je op.</p>
                     <?php echo do_shortcode( '[contact-form-7 id="63" title="Contactformulier"]' ); ?>
                         <p>*: Velden met een ster zijn verplicht.</p>
@@ -450,7 +450,7 @@
                 <br> <a href="mailto:luc@fifatournament.com">Kinderfeesten</a>
                 <br> <a href="mailto:luc@fifatournament.com">FIFA toernooi voor bedrijven</a>
             </div>
-            <div class="col-sm-3 col-xs-12"><strong>Ultimate Esports.com</strong>
+            <div class="col-sm-3 col-xs-12"><strong>WePlay Esports.com</strong>
                 <br>© Copyright <?php echo date('Y'); ?>
                 <br> Alle rechten voorbehouden
                 <br> <a href="http://www.fifatournament.com/sitemap_index.xml">Sitemap</a> - <a href="http://www.fifatournament.com/privacybeleid.pdf">Privacybeleid</a> - <a href="http://www.fifatournament.com/disclaimer.pdf">Disclaimer</a>
@@ -459,9 +459,9 @@
                 <div class="fb-like" data-href="https://www.facebook.com/fifatournament1/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
             </div>
             <div class="col-sm-6 col-xs-12 verhaal">
-                Bij Ultimate Esports kun je terecht voor de organisatie van een FIFA toernooi. Wil je bij jou op de club, op je kinderfeest of op je vrijdagmiddagborrel een FIFA toernooi organiseren? Wij helpen graag om een geweldige toernooi ervaring voor jou en je deelnemers te creëren.
+                Bij WePlay Esports kun je terecht voor de organisatie van een FIFA toernooi. Wil je bij jou op de club, op je kinderfeest of op je vrijdagmiddagborrel een FIFA toernooi organiseren? Wij helpen graag om een geweldige toernooi ervaring voor jou en je deelnemers te creëren.
                 <br>
-                <em>Ultimate Esports - Een voetbaltoernooi op de PlayStation!</em>
+                <em>WePlay Esports - Een voetbaltoernooi op de PlayStation!</em>
             </div>
         </div>
     </footer>
