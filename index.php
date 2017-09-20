@@ -69,8 +69,8 @@
                 </div>
                 <div class="col-md-3 col-sm-3">
                     <div class="vak betrokkenheid">
-                        <h2>FIFA 17</h2>
-                        <p class="hidden-xs drie">FIFA 17 van EA Sports is super realistisch en erg populair; de ideale game om in een toernooivorm te spelen.</p>
+                        <h2>FIFA 18</h2>
+                        <p class="hidden-xs drie">FIFA 18 van EA Sports is super realistisch en erg populair; de ideale game om in een toernooivorm te spelen.</p>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-3 col-xs-12 hidden-xs">
@@ -161,7 +161,7 @@
                         <ul>
                             <li>32" Full HD televisies</li>
                             <li>PlayStation 4</li>
-                            <li>FIFA 17</li>
+                            <li>FIFA 18</li>
                         </ul>
                     </div>
                     <!-- end content -->
