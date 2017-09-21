@@ -14,7 +14,7 @@
 <body id="zeventien">
 <div id="banner"><?php the_title(); ?> PRESENTEERT</div>
 <img src="<?php bloginfo('template_directory'); ?>/imginschrijven/logo.png" class="fifatournament" />
-<div id="titel"><img src="<?php bloginfo('template_directory'); ?>/imginschrijven/fifa17.png" /><br class="visible-xs-block" /><img src="<?php bloginfo('template_directory'); ?>/imginschrijven/toernooi17.png" />
+<div id="titel"><img src="<?php bloginfo('template_directory'); ?>/imginschrijven/fifa.png" /><br class="visible-xs-block" /><img src="<?php bloginfo('template_directory'); ?>/imginschrijven/toernooi.png" />
 <p><?php the_field('doelgroep'); ?></p></div>
 <div class="info">
     <p>Datum: <span class="groen"> <?php the_field('datum'); ?></span></p>
