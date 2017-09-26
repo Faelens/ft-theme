@@ -270,7 +270,7 @@
                         <br>
                         <i class="fa fa-user"></i>1 spelleider
                         <br>
-                        <i class="fa fa-tv"></i>8x PS4 en 32" tv
+                        <i class="fa fa-tv"></i>10x PS4 en 32" tv
                         <br>
                         <i class="fa fa-clock-o"></i>3 uur
                     </div>
