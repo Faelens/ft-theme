@@ -455,7 +455,7 @@
                 <br> Alle rechten voorbehouden
                 <br> <a href="http://www.fifatournament.com/sitemap_index.xml">Sitemap</a> - <a href="http://www.fifatournament.com/privacybeleid.pdf">Privacybeleid</a> - <a href="http://www.fifatournament.com/disclaimer.pdf">Disclaimer</a>
                 <br>
-                <a href="https://www.instagram.com/fifatournament1/" class="instagram"><img src="<?php bloginfo('template_directory'); ?>/img/instagram.png" alt="Instagram"></a>
+                <a href="https://www.instagram.com/weplayesports1/" class="instagram"><img src="<?php bloginfo('template_directory'); ?>/img/instagram.png" alt="Instagram"></a>
                 <div class="fb-like" data-href="https://www.facebook.com/weplayesports1/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
             </div>
             <div class="col-sm-6 col-xs-12 verhaal">
