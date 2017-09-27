@@ -11,10 +11,10 @@
                 <a class="btn btn-custom" href="https://www.youtube.com/watch?v=4oo81ClEHdg" rel="lightbox123" target="_blank">
                     <i class="fa fa-play pull-left"></i>Bekijk Film
                 </a>
-                <a class="btn btn-custom" href="http://facebook.com/fifatournament1" target="_blank">
+                <a class="btn btn-custom" href="http://facebook.com/weplayesports1" target="_blank">
                     <i class="fa fa-facebook-square pull-left"></i>Facebook
                 </a>
-                <a class="btn btn-custom" href="http://instagram.com/fifatournament1" target="_blank">
+                <a class="btn btn-custom" href="http://instagram.com/weplayesports1" target="_blank">
                     <i class="fa fa-instagram pull-left"></i>Instagram
                 </a>
             </div>
@@ -456,7 +456,7 @@
                 <br> <a href="http://www.fifatournament.com/sitemap_index.xml">Sitemap</a> - <a href="http://www.fifatournament.com/privacybeleid.pdf">Privacybeleid</a> - <a href="http://www.fifatournament.com/disclaimer.pdf">Disclaimer</a>
                 <br>
                 <a href="https://www.instagram.com/fifatournament1/" class="instagram"><img src="<?php bloginfo('template_directory'); ?>/img/instagram.png" alt="Instagram"></a>
-                <div class="fb-like" data-href="https://www.facebook.com/fifatournament1/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+                <div class="fb-like" data-href="https://www.facebook.com/weplayesports1/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
             </div>
             <div class="col-sm-6 col-xs-12 verhaal">
                 Bij WePlay Esports kun je terecht voor de organisatie van een FIFA toernooi. Wil je bij jou op de club, op je kinderfeest of op je vrijdagmiddagborrel een FIFA toernooi organiseren? Wij helpen graag om een geweldige toernooi ervaring voor jou en je deelnemers te creëren.
