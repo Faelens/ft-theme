@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<link rel="canonical" href="https://www.weplayesports.com/fifa-toernooi-op-locatie/">
+<link rel="canonical" href="https://www.weplayesports.com/fifa-toernooi-organiseren">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
